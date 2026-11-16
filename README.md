@@ -22,11 +22,11 @@ This repository serves as both a personal knowledge base and a practical Arabic 
 All labs are organized into topic-based directories matching the official PortSwigger Academy curriculum:
 
 ```text
-├── Access-control-vulnerabilities/
+├── Access-control/
 ├── API-testing/
 ├── Authentication/
 ├── Business-logic-vulnerabilities/
-├── Clickjacking/
+├── Clickjacking-UI-redressing/
 ├── Cross-origin-resource-sharing-CORS/
 ├── Cross-site-request-forgery-CSRF/
 ├── Cross-site-scripting-XSS/
@@ -45,6 +45,7 @@ All labs are organized into topic-based directories matching the official PortSw
 ├── Path-traversal/
 ├── Prototype-pollution/
 ├── Race-conditions/
+├── Server-side-parameter-pollution/
 ├── Server-side-request-forgery-SSRF/
 ├── Server-side-template-injection-SSTI/
 ├── SQL-injection/
@@ -55,7 +56,9 @@ All labs are organized into topic-based directories matching the official PortSw
 └── XML-external-entity-XXE-injection/
 ```
 
-_(Note: A small number of multi-category labs appear in their secondary topic folder with a direct cross-reference link to the primary full writeup to avoid content duplication.)_
+ **Notes:**
+* A small number of multi-category labs appear in their secondary topic folder with a direct cross-reference link to the primary full writeup to avoid content duplication.
+* Although PortSwigger groups **Server-Side Parameter Pollution (SSPP)** under *API testing*, it is separated into its own standalone folder (`Server-side-parameter-pollution/`) for easier navigation.
 
 ## How to Use This Repository
 
