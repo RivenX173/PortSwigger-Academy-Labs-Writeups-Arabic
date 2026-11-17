@@ -33,7 +33,7 @@ Hal Pline: Do one!
 
 فنقوم بنسخ الباسورد والدخول إلى حساب `carlos` لننتهي من حل اللاب.
 
-**==`ملاحظة:`**== بدلًا من اعتراض الـ `response` يُمكن أن نعترض الـ `request` الثالث الذي يحدث تلقائيًا بعد الضغط على `View transcript` ونُعدل اسم الملف إلى `1.txt`
+**`ملاحظة:`** بدلًا من اعتراض الـ `response` يُمكن أن نعترض الـ `request` الثالث الذي يحدث تلقائيًا بعد الضغط على `View transcript` ونُعدل اسم الملف إلى `1.txt`
 ```http
 GET /download-transcript/1.txt HTTP/2
 Host: 0aee008b035d509c81fc3e1000250016.web-security-academy.net

@@ -17,7 +17,7 @@ Host: 0ad900c80386d6e0827438c400350071.web-security-academy.net
 Cookie: session=G59JinmI2hdgvXNTuy58PJDkrekRTn9
 ```
 
-==**`ملاحظة إضافية:`**== إذا فحصنا الـ `response` سنجد محتويات ملف `passwd`.
+**`ملاحظة إضافية:`** إذا فحصنا الـ `response` سنجد محتويات ملف `passwd`.
 ```http
 HTTP/2 200 OK
 Content-Type: image/jpeg

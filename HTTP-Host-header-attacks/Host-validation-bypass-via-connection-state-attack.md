@@ -1,6 +1,6 @@
 # [Host validation bypass via connection state attack](https://portswigger.net/web-security/host-header/exploiting/lab-host-header-host-validation-bypass-via-connection-state-attack)
 
-==**`ملاحظة:`**== يستند هذا اللاب إلى ثغرات أمنية حقيقية اكتشفها `PortSwigger Research`، ولمزيد من التفاصيل، اطلع على : **[Browser-Powered Desync Attacks: A New Frontier in HTTP Request Smuggling](https://portswigger.net/research/browser-powered-desync-attacks#state)**.
+**`ملاحظة:`** يستند هذا اللاب إلى ثغرات أمنية حقيقية اكتشفها `PortSwigger Research`، ولمزيد من التفاصيل، اطلع على : **[Browser-Powered Desync Attacks: A New Frontier in HTTP Request Smuggling](https://portswigger.net/research/browser-powered-desync-attacks#state)**.
 ## **`الهدف`**
 قم بالوصول إلى لوحة الإدارة الداخلية الموجودة في `192.168.0.1/admin` ثم قم بحذف حساب `carlos`.
 ## **`خطوات الحل`**
@@ -32,7 +32,7 @@ Host: 192.168.0.1
 Cookie: session=IN54Z9L4wGUZVFty1nNrddU7UFOZn3dS; _lab=46%7cMCwCFFr4vWUGA%2fVqUbanfXaXSF7K1n%2fPAhR69u06fEUd2QtCVupuUR1fGRE4e4tQ7F3xSmVvD7of%2fRgE56xbRwk0bydcqLrELJrUWjJTKXBhE7tCBYFG1l4boZ8UoEzdFdnmnlYpGwVQNLWJV%2fNQFSx3ErPD8MWP3hHzjS2mR0Go%2bbIye4c%3d
 ```
 
-==**`ملاحظة:`**== قد تحتاج إلى تغيير ترويسة `Connection`  إلى `keep-alive` إذا لم تكن كذلك.
+**`ملاحظة:`** قد تحتاج إلى تغيير ترويسة `Connection`  إلى `keep-alive` إذا لم تكن كذلك.
 ## **`ترقيع الثغرة`**
 **`نفس ترقيع لاب` [Host header authentication bypass](./Host-header-authentication-bypass.md)
 

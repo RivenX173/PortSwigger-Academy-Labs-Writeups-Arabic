@@ -3,7 +3,7 @@
 ## **`الهدف`**
 قم بالتأكد من وجود الثغرة عن طريقة تلويث `Object.prototype` بطريقة تُحدث تغييرًا ملحوظًا، ولكن غير مُتلف، في سلوك السيرفر.
 ## **`خطوات الحل`**
-==**`ملاحظة هامة:`**== يمكن حل هذا اللاب عن طريق`Status code override` أو `JSON spaces override` أو `Charset override` ولكني سأستعمل الطريقة الأولي هنا.
+**`ملاحظة هامة:`** يمكن حل هذا اللاب عن طريق`Status code override` أو `JSON spaces override` أو `Charset override` ولكني سأستعمل الطريقة الأولي هنا.
 
 سنقوم بتسجيل الدخول إلى حساب `wiener:peter` وبعد ذلك سنقوم بتغيير أى جزء من الـ `Billing and Delivery Address` ونضغط `Submit` وبعد ذلك سنقوم بالعثور على الطلب الخاص بهذا الجزء في `HTTP history` ونقوم بتحويله إلى `Repeater`
 ```http

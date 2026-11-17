@@ -48,7 +48,7 @@ Cookie: session=CXvFNhhLcKJQrTsNrc7yV4B91AEqGFkr
 
 csrf=fiuxTqjva22JSJhaPEFYnhXj7syJgvRm&username=kng&email=attacker%40exploit-0aab000a03433c59e8cf1ef10181004a.exploit-server.net&password=123456
 ```
-وسنقوم بعمل اختبار لنعرف هل حقل الـ `email` له حد أقصى إذا تخطاه قد تحدث ثغرة أم لا لذلك نقوم بوضع الـ ==§== `(Payload Marker)` على كلمة `attacker` الموجود في بداية الـ `email.` 
+وسنقوم بعمل اختبار لنعرف هل حقل الـ `email` له حد أقصى إذا تخطاه قد تحدث ثغرة أم لا لذلك نقوم بوضع الـ § `(Payload Marker)` على كلمة `attacker` الموجود في بداية الـ `email.` 
 
 ```http
 POST /register HTTP/2
@@ -126,7 +126,7 @@ RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
 
 ```
 
-==**`ملاحظة هامة جدًا:`**== `يجب أن لا ننسى تحويل علامة (@) إلى (%40) في حالة إذا قررنا التسجيل باستعمال Burp Suite بدلًا من المتصفح.`
+**`ملاحظة هامة جدًا:`** `يجب أن لا ننسى تحويل علامة (@) إلى (%40) في حالة إذا قررنا التسجيل باستعمال Burp Suite بدلًا من المتصفح.`
 
 وبمجرد الذهاب إلى صندوق البريد سنجد رسالة التأكيد وبعد الضغط على رابط التأكيد وتسجيل الدخول للحساب الذي أنشأناه سنجد ظاهرًا على الشاشة:
 

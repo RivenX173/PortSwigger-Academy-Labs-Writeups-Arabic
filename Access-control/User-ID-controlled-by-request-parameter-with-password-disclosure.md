@@ -12,7 +12,7 @@ https://0ae5007303b77884807a67ec000c0029.web-security-academy.net/my-account?id=
 وتسجيل الدخول إلى حساب `administrator`، 
 وبعد ذلك نتوجه إلى لوحة التحكم ونقوم بحذف `carlos` لننتهي من حل اللاب.
 
-**==`لكن الحل الذي قُمت به أعقد قليًلا لأني لم أجرب الطريقة الأولى`**==
+**`لكن الحل الذي قُمت به أعقد قليًلا لأني لم أجرب الطريقة الأولى`**
 نقوم بالدخول إلى حساب `wiener:peter` ونقوم بتغيير الـ `Email` واعتراض الـ `response`  الأول 
 
 ```http
@@ -30,7 +30,7 @@ X-Frame-Options: SAMEORIGIN
 Content-Length: 0
 ```
 
-**==`ملاحظة:`**== بدلًا من اعتراض الـ `response` يُمكن أن نعترض الـ `request` الثاني الذي يحدث تلقائيًا ونغير الـ `id=wiener` إلى `administrator` ونمرره
+**`ملاحظة:`** بدلًا من اعتراض الـ `response` يُمكن أن نعترض الـ `request` الثاني الذي يحدث تلقائيًا ونغير الـ `id=wiener` إلى `administrator` ونمرره
 ```http
 GET /my-account?id=administrator HTTP/2
 Host: 0ae5007303b77884807a67ec000c0029.web-security-academy.net

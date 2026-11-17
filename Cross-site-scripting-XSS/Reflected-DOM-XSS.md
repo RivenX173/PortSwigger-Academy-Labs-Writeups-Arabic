@@ -27,7 +27,7 @@ Content-Length: 2728
 function search(path) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+        if (this.readyState  4 && this.status  200) {
             eval('var searchResultsObj = ' + this.responseText);
             displaySearchResults(searchResultsObj);
         }

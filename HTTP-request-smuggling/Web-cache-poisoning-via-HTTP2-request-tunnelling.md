@@ -183,7 +183,7 @@ Content-Length: 11554
             </div> 
 ```
 
-==**`ملاحظة هامة جدًا:`**== في الحل الرسمي على الـ `PortSwigger` كانوا يقومون بتعديل قيمة الترويسة لتكون
+**`ملاحظة هامة جدًا:`** في الحل الرسمي على الـ `PortSwigger` كانوا يقومون بتعديل قيمة الترويسة لتكون
 ```http
 /?TEST=1 HTTP/1.1\r\n
 Host: 0a9800a804c4999d81926bdf0079001a.web-security-academy.net\r\n
@@ -236,7 +236,7 @@ Content-Length: 150
 <html><head><title>Server Error: Proxy error</title></head><body><h1>Server Error: Received only 316 of expected 8497 bytes of data</h1></body></html>
 ```
 
-==**`ملاحظة هامة جدًا:`**== في الحل الرسمي على الـ `PortSwigger` كانوا يقومون بتعديل قيمة الترويسة لتكون
+**`ملاحظة هامة جدًا:`** في الحل الرسمي على الـ `PortSwigger` كانوا يقومون بتعديل قيمة الترويسة لتكون
 ```http
 /?TEST=1 HTTP/1.1
 Host: 0a9800a804c4999d81926bdf0079001a.web-security-academy.net\r\n

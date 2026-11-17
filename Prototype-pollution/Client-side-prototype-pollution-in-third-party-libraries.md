@@ -3,7 +3,7 @@
 ## **`الهدف`**
 قم باستخدام `DOM Invader` لتحديد تلوث النموذج الأولي وأداة الـ `DOM XSS` ثم استخدم سيرفر الاستغلا لتوصيل `Payload` إلى الضحية بحيث يستدعي `alert(document.cookie)` في متصفحها. 
 ## **`خطوات الحل`**
-==**`ملاحظة هامة:`**== هذا اللاب مبني على ثغرة حقيقة اكتشفتها الـ `PortSwigger`، ولمزيد من المعلومات انظر، **[Widespread prototype pollution gadgets](https://portswigger.net/research/widespread-prototype-pollution-gadgets)**
+**`ملاحظة هامة:`** هذا اللاب مبني على ثغرة حقيقة اكتشفتها الـ `PortSwigger`، ولمزيد من المعلومات انظر، **[Widespread prototype pollution gadgets](https://portswigger.net/research/widespread-prototype-pollution-gadgets)**
 
 سنستعمل `DOM Invader` وبعد الضغط على `Exploit` في الخطوة الأخيرة، سنقوم بنسخ الاستغلال الخاص بالـ `DOM Invader` والذي هو رابط الصفحة الجديدة التي فُتحت تلقائيًا
 ```URL

@@ -82,7 +82,7 @@ ZoqNLOIUZ4qdmbVk3aXmXYKpTHr5CNpR
 
 بعد ذلك سنقوم بنسخه ثم نعود للصفحة الرئيسية للاب ونضغط على  `Submit solution` ونضعه في الحقل ونضغط `OK` لننتهي من حل اللاب.
 
-==**`ملاحظة هامة:`**== بما أن هذا اللاب هو بيئة اختبارية فالـ `time window` كبيرة لذلك أمكن حله بإستخدام `Burp Repeater` ولكن في المواقع الحقيقة سيكون هذا شبه مستحيلًا لذلك ستحتاج لإستعمال إضافة `Turbo Intruder` باستخدام سكريبت `Python` كالتالي:
+**`ملاحظة هامة:`** بما أن هذا اللاب هو بيئة اختبارية فالـ `time window` كبيرة لذلك أمكن حله بإستخدام `Burp Repeater` ولكن في المواقع الحقيقة سيكون هذا شبه مستحيلًا لذلك ستحتاج لإستعمال إضافة `Turbo Intruder` باستخدام سكريبت `Python` كالتالي:
 ```Python
 def queueRequests(target, wordlists):
 	engine = RequestEngine(endpoint=target.endpoint, concurrentConnections=10,)
@@ -101,7 +101,7 @@ def queueRequests(target, wordlists):
 def handleResponse(req, interesting):
 	table.add(req)
 ```
-==**`ملاحظة:`**== عند وضع طلب `GET` داخل كود `Python` لاتنسى إنهائه بشكل صحيح باستخدام تسلسل `\r\n\r\n`، وأيضًا تذكر أن `Python` يحتفظ بأى مسافات بيضاء داخل النصوص لذلك عليك تعديل المسافات البادئة `indentation` وفقًا لذلك لضمان إرسال طلب صحيح.  
+**`ملاحظة:`** عند وضع طلب `GET` داخل كود `Python` لاتنسى إنهائه بشكل صحيح باستخدام تسلسل `\r\n\r\n`، وأيضًا تذكر أن `Python` يحتفظ بأى مسافات بيضاء داخل النصوص لذلك عليك تعديل المسافات البادئة `indentation` وفقًا لذلك لضمان إرسال طلب صحيح.  
 
 ## **`ترقيع الثغرة`**
 **`نفس ترقيع لاب` [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)

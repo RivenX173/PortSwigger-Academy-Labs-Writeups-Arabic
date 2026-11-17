@@ -3,7 +3,7 @@
 ## **`الهدف`**
 قم بالوصول إلى الـ `Source Code` واستخدمه لإنشاء سلسلة  أدوات للحصول على كلمة مرور `administrator` ثم قم بحذف حساب `Carlos`.
 ## **`خطوات الحل`**
-==**`ملاحظة هامة:`**==  في الحل الرسمي على الـ `PortSwigger` هناك طريقة أخرى لإنشاء الكائن المسلسل بإستخدام إضافة `Hackvertor` ولكن بعد عدة محاولات لم تنجح معي.
+**`ملاحظة هامة:`**  في الحل الرسمي على الـ `PortSwigger` هناك طريقة أخرى لإنشاء الكائن المسلسل بإستخدام إضافة `Hackvertor` ولكن بعد عدة محاولات لم تنجح معي.
 
 
 نقوم بالدخول إلى حساب `wiener:peter` ونقوم بتحويل أى طلب يحتوى على الـ `Cookie` مثل طلب `/my-account` إلى `Repeater`
@@ -255,7 +255,7 @@ class=is-warning>java.io.IOException: org.postgresql.util.PSQLException: ERROR: 
 
 وسنقوم بتسجيل الدخول إلى حساب `administrator:brtmydgjl6jmcwnvwb38` ثم سنقوم بالتوجه إلى `Admin Panel` ونقوم بحذف حساب `Carlos` لننتهي من حل اللاب.
 
-==**`ملاحظة هامة:`**== لقد افترضت وجود عمود اسمه `password` ولكن يُمكن أيضًا سحبه عن طريق `Payload` مثل التالي:
+**`ملاحظة هامة:`** لقد افترضت وجود عمود اسمه `password` ولكن يُمكن أيضًا سحبه عن طريق `Payload` مثل التالي:
 
 ```SQL
 ' UNION SELECT NULL, NULL, NULL, CAST(column_name AS numeric), NULL, NULL, NULL, NULL FROM information_schema.columns WHERE table_name='users' AND column_name != 'username'--

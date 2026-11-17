@@ -3,7 +3,7 @@
 ## **`الهدف`**
 قم بتنفيذ هجوم `XSS` في تعليق يستدعي دالة `alert`.
 ## **`خطوات الحل`**
-==**`ملاحظة:`==** خطوات الحل الرسمي من الـ `PortSwigger` تختلف قليلًا عن الخطوات المكتوبة هنا لأنه يستعمل أداة `Burp Intruder`.
+**`ملاحظة:`** خطوات الحل الرسمي من الـ `PortSwigger` تختلف قليلًا عن الخطوات المكتوبة هنا لأنه يستعمل أداة `Burp Intruder`.
 
 سنقوم بتكرار نفس الخطوات الخاصة ببعض اللابات السابقة التى تعتمد على التخمين باستخدام **[XSS cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)** مثل:
 [Reflected XSS into HTML context with most tags and attributes blocked](./Reflected-XSS-into-HTML-context-with-most-tags-and-attributes-blocked.md) 
