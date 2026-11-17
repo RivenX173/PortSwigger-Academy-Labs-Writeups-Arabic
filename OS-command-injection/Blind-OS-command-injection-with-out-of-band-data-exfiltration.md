@@ -32,6 +32,6 @@ The lookup was received from IP address 99.80.88.36:8965 at 2026-Nov-12 16:04:06
 
 `ملاحظة:` الدابل بايب `(||)` تعنى `OR` أى عند فشل الأمر الأول قم بتنفيذ التالي، عندما قمنا بوضع بريد غير صالح بصيغة خاطئة فشل الإرسال فتم تنفيذ أمر `Ping` أما الـ `||` الأخير فهي للفصل بين أمر `Ping` وباقي سطر الأوامر لكي لا يحدث تداخل.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Blind OS command injection with time delays](./Blind-OS-command-injection-with-time-delays.md)
+**`نفس ترقيع لاب`** [Blind OS command injection with time delays](./Blind-OS-command-injection-with-time-delays.md)
 
 ويجب تطبيق سياسة تقييد الاتصالات الصادرة `Egress Filtering` على مستوى الجدار الناري `Firewall`، بحيث يتم منع سيرفر الويب من إجراء أي اتصالات صادرة `Outbound Connections` نحو شبكة الإنترنت الخارجية بشكل افتراضي تطبيقًا لمبدأ المنع الافتراضي `Default Deny`، والسماح للسيرفر فقط بالاتصال بالوجهات الخارجية الضرورية والمحددة مسبقاً عبر قائمة بيضاء صارمة `Strict Whitelist`، لمنع المهاجم من استغلال السيرفر للاتصال بخوادم خارجية يتحكم بها `OAST` لتأكيد الثغرات العمياء `Blind OS` أو تسريب البيانات `Out-of-band Data Exfiltration`.

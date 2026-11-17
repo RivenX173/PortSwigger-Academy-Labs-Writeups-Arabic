@@ -60,7 +60,7 @@ Content-Length: 6972
 
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء كبير من ترقيع لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`بالإضافة إلى جزء كبير من ترقيع لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 فيجب على السيرفر تعقييم أي مدخلات من المستخدم قبل تمريرها إلى ترويسات الاستجابة، بحيث يتم إزالة أو استبدال رموز `%0d` و `%0a` (أو `\r` و `\n`).
  

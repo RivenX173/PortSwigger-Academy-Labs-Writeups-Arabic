@@ -3,7 +3,7 @@
 ## **`الهدف`**
 إنشاء كود `HTML` يقوم بعمل هجوم `CSRF` بحيث يغير الـ `email` الخاص بالضحية.
 ## **`خطوات الحل`**
-**`نفس خطوات حل لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`نفس خطوات حل لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 ولكن سنستعمل السكريبت التالي لأن هذا اللاب يمنع `GET` لتعديل البريد الإلكتروني ويسمح فقط بـ `POST` ولكن يمكن التحايل عليها باستخدام `HTTP Method Overriding أو مايعرف بـ Method Spoofing` عن طريق إضافة `_method`.
 
@@ -18,7 +18,7 @@
 ```
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`نفس ترقيع لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 ويجب إيقاف هذه خاصية `HTTP Method Overriding` تمامًا من إعدادات الـ `Framework` إذا كان تطبيق الويب لا يحتاج فعلياً لمحاكاة طلبات مثل `PUT أو DELETE` عبر نماذج `HTML` (مثلاً إذا كان يستخدم `AJAX/Fetch API` التي تدعم جميع الطلبات بشكل أصلي)،
 

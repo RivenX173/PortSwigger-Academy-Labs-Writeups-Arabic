@@ -136,4 +136,4 @@ Cookie: session=hdbTIWofbzJMwGIO71OxIX53yvtLUEu5
 
 بعد ذلك سنقوم بالتوجه إلى المتصفح والدخول إلى لوحة التحكم ونقوم بالضغط على `Run maintenance jobs` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)
+**`نفس ترقيع لاب`** [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)

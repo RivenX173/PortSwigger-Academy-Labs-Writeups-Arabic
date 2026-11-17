@@ -3,7 +3,7 @@
 ## **`الهدف`**
 الحصول على محتويات ملف `/etc/passwd`
 ## **`خطوات الحل`**
-**`خطوات حل هذا اللاب هي نفسها خطوات حل لاب` [File path traversal, simple case](./File-path-traversal,-simple-case.md)
+**`خطوات حل هذا اللاب هي نفسها خطوات حل لاب`** [File path traversal, simple case](./File-path-traversal,-simple-case.md)
 
 باختلاف واحد فقط وهو أننا سنقوم بتغيير الجزئية الموجودة في أول سطر من الـ `request` إلى 
 ```URL-E
@@ -12,4 +12,4 @@
 
 والذي يحدث عند القيام بعمل `URL Encoding` لـ `../../../` فينتج `%2e%2e%2f%2e%2e%2f%2e%2e%2f` فنقوم بعمل لها `URL Encoding` مرة أخرى ونقوم بتمرير.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [File path traversal, simple case](./File-path-traversal,-simple-case.md)
+**`نفس ترقيع لاب`** [File path traversal, simple case](./File-path-traversal,-simple-case.md)

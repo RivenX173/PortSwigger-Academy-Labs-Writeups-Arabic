@@ -38,7 +38,7 @@ redirectOnConfirmation = (blogPath) => {
 
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`نفس ترقيع لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 ويجب برمجة الـ `postId` لكي يقبل أرقام فقط `Integer` إذا كان الموقع يستعمل أرقام عادية للـ `postId` أو يقبل أرقام و `-` فقط إذا كان الموقع يستعمل نظام `UUID`، وأن يرفض وجود الـ `/`.
 

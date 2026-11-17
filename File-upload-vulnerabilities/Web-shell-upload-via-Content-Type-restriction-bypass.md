@@ -107,4 +107,4 @@ RQBCju7IgkbDV4cCvxPdmV0G07PXGf5z
 
 بعد ذلك سنقوم بنسخه ثم نعود للصفحة الرئيسية للاب ونضغط على  `Submit solution` ونضعه في الحقل ونضغط `OK` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)
+**`نفس ترقيع لاب`** [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)

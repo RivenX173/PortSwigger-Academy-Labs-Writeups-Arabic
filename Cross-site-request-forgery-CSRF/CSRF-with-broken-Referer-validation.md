@@ -3,7 +3,7 @@
 ## **`الهدف`**
 إنشاء كود `HTML` يقوم بعمل هجوم `CSRF` بحيث يغير الـ `email` الخاص بالضحية.
 ## **`خطوات الحل`**
-**`نفس خطوات حل لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`نفس خطوات حل لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 ولكن بما أن هذا اللاب يعتمد على ترويسة `Referer` وإذا قمنا بتغييرها يقوم برفض الطلب ولكن إذا قمنا بتغييرها بشرط أن يتضمنها الدومين الأصلى فإن الطلب يمر بدون مشاكل لذلك فسنقوم بإضافة جزء فى السكريبت لكي يقوم بتضمين الدومين الأصلى داخل الـ `URL``.
 
@@ -36,4 +36,4 @@ Referrer-Policy: unsafe-url
 
 ثم نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`نفس ترقيع لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)

@@ -73,7 +73,7 @@ O:14:"CustomTemplate":1:{s:14:"lock_file_path";s:23:"/home/carlos/morale.txt";}
 
 ثم سنقوم بنسخ الـ `Cookie` الجديد ونتوجه إلى المتصفح ونضغط `F12` ثم  `Application` ونضعه في خانة الـ `Session` داخل الـ `Cookies` ثم نضغط `Enter` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Modifying serialized objects](./Modifying-serialized-objects.md)
+**`نفس ترقيع لاب`** [Modifying serialized objects](./Modifying-serialized-objects.md)
 
 ويجب ألا يعمل تطبيق الويب بصلاحيات مستخدم `Root` ويعمل بصلاحيات مستخدم محدود مثل `www-data` بحيث لا يملك صلاحية التعديل أو الحذف إلا في مجلدات محددة خاصة بالتطبيق مثل `/var/www/html/uploads`.
 

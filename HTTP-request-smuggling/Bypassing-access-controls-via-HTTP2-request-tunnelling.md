@@ -352,4 +352,4 @@ Content-Length: 3293
 
 لذلك سنغير المسار في حقل اسم الترويسة التي قمنا بإضافها من `/admin` إلى `/admin/delete?username=carlos` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)
+**`نفس ترقيع لاب`** [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)

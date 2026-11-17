@@ -104,4 +104,4 @@ def handleResponse(req, interesting):
 **`ملاحظة:`** عند وضع طلب `GET` داخل كود `Python` لاتنسى إنهائه بشكل صحيح باستخدام تسلسل `\r\n\r\n`، وأيضًا تذكر أن `Python` يحتفظ بأى مسافات بيضاء داخل النصوص لذلك عليك تعديل المسافات البادئة `indentation` وفقًا لذلك لضمان إرسال طلب صحيح.  
 
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)
+**`نفس ترقيع لاب`** [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)

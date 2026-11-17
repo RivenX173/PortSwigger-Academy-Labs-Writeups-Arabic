@@ -60,6 +60,6 @@ Content-Length: 7168
 
 لنجد أن كلمة المرور ظاهرة لدينا `value="lyxnOMTOwdAtTYISfxtU9u1OMkZfD0Vr"` فنقوم بنسخها وعمل `Log out` وتسجيل الدخول إلى حساب `administrator`، وبعد ذلك نتوجه إلى لوحة التحكم ونقوم بحذف `carlos` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`الترقيع هو جزء كبير من ترقيع لاب` [User ID controlled by request parameter](./User-ID-controlled-by-request-parameter.md)
+**`الترقيع هو جزء كبير من ترقيع لاب`** [User ID controlled by request parameter](./User-ID-controlled-by-request-parameter.md)
 
 بالإضاة إلى أنه لا يجب على السيرفر أبدًا أن يُرسل كلمة المرور الحالية وعند تصميم صفحة تغيير كلمة المرور، يجب إرسال حقول فارغة ليقوم المُستخدم بكتابة الكلمة الجديدة فيها، دون الحاجة لاستدعاء الكلمة القديمة وعرضها في الـ `Source code` الخاص بالصفحة.

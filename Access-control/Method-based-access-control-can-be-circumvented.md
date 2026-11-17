@@ -28,7 +28,7 @@ Cookie: session=9EQ1H0CaRonop19psBAWLCyAzmSuvSFB
 
 ونقوم بتمريره لنجد أنه تم رفع صلاحيات الحساب إلى مدير وننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء كبير من ترقيع لاب` [Unprotected admin functionality](./Unprotected-admin-functionality.md)
+**`بالإضافة إلى جزء كبير من ترقيع لاب`** [Unprotected admin functionality](./Unprotected-admin-functionality.md)
 
 فيجب  تقييد الـ `Method` المسموحة بشكل صارم، وإجبار الـ `Endpoint` على استقبال `Method` الـ `Post` فقط، وإذا تم إرسال أى `Method` أخرى يجب على السيرفر فورًا رفض الـ `request` وإرجاع خطأ برقم `405 Method Not Allowed`
 

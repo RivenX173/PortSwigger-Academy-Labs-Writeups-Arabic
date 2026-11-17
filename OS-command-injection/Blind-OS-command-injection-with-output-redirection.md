@@ -31,6 +31,6 @@ https://0ab0001d03d2d36c8024b76500c200e7.web-security-academy.net/image?filename
 
 وسنجد محتويات أمر `whoami` ظاهرة لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Blind OS command injection with time delays](./Blind-OS-command-injection-with-time-delays.md)
+**`نفس ترقيع لاب`** [Blind OS command injection with time delays](./Blind-OS-command-injection-with-time-delays.md)
 
 ويجب ألا يكون مجلد مثل `/var/www/images/` قابلًا للكتابة بواسطة مستخدم سيرفر الويب (`www-data`) إلا إذا كانت هناك ميزة فعلية لرفع الصور، وحتى إذا كانت ميزة الرفع موجودة، يجب أن تكون الصلاحيات مقيدة جدًا لمنع المهاجم من كتابة ملفات عشوائية سواء نصوص `txt` أو ملفات خبيثة مثل `Web Shells`، ويُنصح بتغيير اسماء الملفات المرفوعة إلى أسماء عشوائية لا يُمكن تخمينها وبالتالي حتى ولو نجح المهاجم في رفع الملف فلن يستطيع استدعاءه.

@@ -59,6 +59,6 @@ Host: 192.168.0.253
 Cookie: session=2dxvfUaNPgruWR6Jp92dnS1hsrykzDD3; _lab=46%7cMCwCFBobPtSNKn7xJPJRKW36MGVtAJ2QAhQLMhd6mMereWbktETgObr6d%2be8GKgeL80vfWFGOEX1zCE5bysIgdmP4XQVx7TKBFvP2Ekz%2faCClyqOq1PWacflYZmxBYTC4QHbScAAA2kNWLX7syL%2fVpsWkIZieda99KCM5XrSdVWhlk8%3d
 ```
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Host header authentication bypass](./Host-header-authentication-bypass.md)
+**`نفس ترقيع لاب`** [Host header authentication bypass](./Host-header-authentication-bypass.md)
 
 ويجب وضع حماية ضد كثرة الطلبات لأن الوضع الحالي للموقع هو `No Rate Limiting`.

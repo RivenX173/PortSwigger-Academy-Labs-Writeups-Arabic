@@ -177,4 +177,4 @@ function getFactor(obj) {
 ```
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Basic clickjacking with CSRF token protection](./Basic-clickjacking-with-CSRF-token-protection.md)
+**`نفس ترقيع لاب`** [Basic clickjacking with CSRF token protection](./Basic-clickjacking-with-CSRF-token-protection.md)

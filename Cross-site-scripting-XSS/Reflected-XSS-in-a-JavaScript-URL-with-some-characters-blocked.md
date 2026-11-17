@@ -36,6 +36,6 @@ https://0a670074041aa84281e13e0a00e90052.web-security-academy.net/post?postId=4&
 
 وبمجرد أن يضغط الضحية على الرابط، يٌجبر الكود المتصفح على محاولة تحويل كائن `window` إلى نص، فيستدعي الدالة `toString` التي قمنا باستبدالها بدالتنا الخبيثة، فتقوم الدالة برمي الخطأ `1337`، وبما أننا استبدلنا معالج الأخطاء `onerror` ليصبح هو الدالة `alert`، سيتدخل ويلتقط الخطأ، ليظهر صندوق التنبيه بالقيمة `1337` بنجاح متجاوزاً منع كتابة الأقواس `()`.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
+**`نفس ترقيع لاب`** [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
 
 ويجب على الترميز أن يكون `Context-Aware` وتحديدًا `JavaScript Escaping` مثل تحويل `\` إلى `\\`، و `'` إلى `\x27` أو `\u0027`)

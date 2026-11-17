@@ -25,4 +25,4 @@ location = 'https://0ad900b50375de4b8008b78300450086.web-security-academy.net/?s
 
 - **حدث `onfocus=alert(...)`:** بمجرد أن ينقل المتصفح التركيز إلى العنصر، يشتغل الحدث وينفذ الكود فوراً بدون أي تفاعل أو ضغط من الضحية.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
+**`نفس ترقيع لاب`** [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)

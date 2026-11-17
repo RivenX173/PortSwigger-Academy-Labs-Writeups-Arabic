@@ -64,7 +64,7 @@ mXpHnRhFis7neZdYAn0PhhqoRN8IAj2W
 
 بعد ذلك سنقوم بنسخه ثم نعود للصفحة الرئيسية للاب ونضغط على  `Submit solution` ونضعه في الحقل ونضغط `OK` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)
+**`نفس ترقيع لاب`** [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)
 
 ويجب على المبرمجين ضبط الإعدادات الرئيسية للسيرفر لمنعه من الالتفات لملفات الـ `.htaccess` التي يرفعها المستخدمين عن طريق إلغاء خاصية `AllowOverride` داخل المجلدات التي يستطيع المستخدمين رفع ملفاتهم إليها:
 ```htaccess

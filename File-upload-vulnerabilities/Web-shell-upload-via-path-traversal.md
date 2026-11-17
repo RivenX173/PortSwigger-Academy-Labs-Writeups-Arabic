@@ -184,5 +184,5 @@ pWb3fCq4LkuC2VVKUcBUWSzPEoEHo6Sh
 ```
 بعد ذلك سنقوم بنسخه ثم نعود للصفحة الرئيسية للاب ونضغط على  `Submit solution` ونضعه في الحقل ونضغط `OK` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)
+**`نفس ترقيع لاب`** [Remote code execution via web shell upload](./Remote-code-execution-via-web-shell-upload.md)
 ويجب عدم الاعتماد على `filename` لتحديد مسار الملف وبدلًا من ذلك يتم تحديد مجلد ثابت في النظام يتم حفظ الصور فيه.

@@ -3,7 +3,7 @@
 ## **`الهدف`**
 إنشاء كود `HTML` يقوم بعمل هجوم `CSRF` بحيث يغير الـ `email` الخاص بالضحية.
 ## **`خطوات الحل`**
-**`نفس خطوات حل لاب` [CSRF where token is tied to non-session cookie](./CSRF-where-token-is-tied-to-non-session-cookie.md)
+**`نفس خطوات حل لاب`** [CSRF where token is tied to non-session cookie](./CSRF-where-token-is-tied-to-non-session-cookie.md)
 
 ولكن بما أن هذا اللاب يقوم بوضع الـ `csrf token` في الـ `cookie` وفي الـ `request` ويقارنهم سويًا دون العودة إلى السيرفر فكل ماعلينا فعله هو استعمال نفس السكريبت ولكن بتعديلات بسيطة
 ```html
@@ -15,7 +15,7 @@
 ```
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [CSRF where token is tied to non-session cookie](./CSRF-where-token-is-tied-to-non-session-cookie.md)
+**`نفس ترقيع لاب`** [CSRF where token is tied to non-session cookie](./CSRF-where-token-is-tied-to-non-session-cookie.md)
 
 لكن بإختلاف أنه لا يوجد في هذا الاب `csrfkey` لذلك فالاختلاف هنا أنه:
 

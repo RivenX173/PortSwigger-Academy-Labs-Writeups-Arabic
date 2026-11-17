@@ -289,4 +289,4 @@ Content-Length: 27
 ```
 وقد نحتاج إلى إرساله عدة مرات لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)
+**`نفس ترقيع لاب`** [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)

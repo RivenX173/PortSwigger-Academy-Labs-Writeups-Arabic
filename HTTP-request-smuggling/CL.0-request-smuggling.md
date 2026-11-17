@@ -42,7 +42,7 @@ Test1: Test2
 1. في المواقع الحقيقة قد تحتاج إلى استعمال ترويسة `Connection: keep-alive` لضمان عدم قطع اتصال الـ `TCP`.
 2. هذا اللاب مصاب بثغرة `CL.0` ولكنه كذلك به ثغرة `H2.0` حيث أنه لو أبقينا جميع الطلبات بـ `HTTP/2` ولم نقم بإضافة ترويسة `Content-Length` فسينجح الهجوم كذلك.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)
+**`نفس ترقيع لاب`** [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)
 
 ويجب ضبط سيرفر الواجهة الأمامية ليقوم فوراً برفض أي طلب `GET` يحتوي على جسم بـ `400 Bad Request`، وكذلك يقوم برفض أى طلب `POST` موجه لمسارات الموارد الثابثة بـ `405 Method Not Allowed`.
 

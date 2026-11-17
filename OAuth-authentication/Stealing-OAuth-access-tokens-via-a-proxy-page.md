@@ -89,7 +89,7 @@ Content-Length: 152
 
 ## **`ترقيع الثغرة`**
 
-**`نفس ترقيع لاب` [Stealing OAuth access tokens via an open redirect](./Stealing-OAuth-access-tokens-via-an-open-redirect.md)
+**`نفس ترقيع لاب`** [Stealing OAuth access tokens via an open redirect](./Stealing-OAuth-access-tokens-via-an-open-redirect.md)
 
 ويجب تحديد النطاق المستهدف `Target Origin` بصرامة عن طريق استبدال `*` في الكود المعيب بالرابط الموثوق فقط مثل دومين التطبيق الأساسي، بحيث يرفض المتصفح تسليم الرسالة لأي دومين خارجي.
 

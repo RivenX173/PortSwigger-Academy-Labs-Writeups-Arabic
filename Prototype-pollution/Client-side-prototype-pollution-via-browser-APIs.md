@@ -5,6 +5,6 @@
 ## **`خطوات الحل`**
 `ملاحظة هامة:`لقد تم حل هذا اللاب بإستخدام `DOM Invader` لذلك لا يوجد خطوات يدوية.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [DOM XSS via client-side prototype pollution](./DOM-XSS-via-client-side-prototype-pollution.md)
+**`نفس ترقيع لاب`** [DOM XSS via client-side prototype pollution](./DOM-XSS-via-client-side-prototype-pollution.md)
 
 ويجب عند استخدام دالة `Object.defineProperty()` لحماية خصائص الكائنات `Properties` وجعلها غير قابلة للتعديل، أن يتم تعريف وصف القيمة `value` صراحة داخل إعدادات الدالة `Descriptors`، لأنه في حال إغفال تمريرها، سيقوم محرك اللغة تلقائياً بالبحث عن هذه القيمة المفقودة في سلسلة الوراثة `Prototype Chain`، مما يسمح للمهاجم بتلويث القيمة الموروثة عبر النموذج الأولي الأساسي `Object.prototype` وتمرير الـ `Payload` الخبيث الخاص به، لذا يجب دائماً تعيين القيمة بشكل مباشر وصريح لقطع الطريق على أي وراثة خبيثة.

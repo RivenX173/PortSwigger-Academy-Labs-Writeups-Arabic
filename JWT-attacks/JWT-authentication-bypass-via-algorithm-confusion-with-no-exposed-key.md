@@ -68,4 +68,4 @@ Cookie: session=eyJraWQiOiI1OWQ1NWYyNS1mYjFlLTRkNWMtODJmYy03NDU2MzEyNzkzNWUiLCJh
 
 ثم سنقوم بنسخ كامل الـ `Session token` بعد التعديل، ونقوم بالذهاب إلى المتصفح داخل اللاب والضغط على `F12` ووضعها بدلًا من القديمة وعمل `refresh` للصفحة، ونستطيع بعد ذلك الدخول مرة أخرى إلى `/admin` وحذف حساب `carlos` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع اللاب السابق` [JWT authentication bypass via algorithm confusion](./JWT-authentication-bypass-via-algorithm-confusion.md)
+**`نفس ترقيع اللاب السابق`** [JWT authentication bypass via algorithm confusion](./JWT-authentication-bypass-via-algorithm-confusion.md)

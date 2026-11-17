@@ -34,4 +34,4 @@
 ```
 بعد ذلك سنقوم بالدخول إلى السيرفر الخاص بنا الذي يوفره اللاب ونضع السكريبت التالي في خانة `Body`.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Basic clickjacking with CSRF token protection](./Basic-clickjacking-with-CSRF-token-protection.md)
+**`نفس ترقيع لاب`** [Basic clickjacking with CSRF token protection](./Basic-clickjacking-with-CSRF-token-protection.md)

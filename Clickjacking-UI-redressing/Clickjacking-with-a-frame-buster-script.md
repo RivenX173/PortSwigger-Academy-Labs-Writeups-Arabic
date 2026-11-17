@@ -129,4 +129,4 @@ https://0a6c001e04a0a0de811116a600f100ed.web-security-academy.net/my-account?ema
 ```
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Basic clickjacking with CSRF token protection](./Basic-clickjacking-with-CSRF-token-protection.md)
+**`نفس ترقيع لاب`** [Basic clickjacking with CSRF token protection](./Basic-clickjacking-with-CSRF-token-protection.md)

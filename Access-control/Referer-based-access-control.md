@@ -46,6 +46,6 @@ Referer: https://0a5600bf0492407382aa247800370090.web-security-academy.net/admin
 
 ونقوم بتمريره لنجد أنه تم رفع صلاحيات الحساب إلى مدير وننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء كبير من ترقيع لاب` [Unprotected admin functionality](./Unprotected-admin-functionality.md)
+**`بالإضافة إلى جزء كبير من ترقيع لاب`** [Unprotected admin functionality](./Unprotected-admin-functionality.md)
 
 فلا يجوز أبداً استخدام الـ `Referer Header` أو أي `Header` آخر غير الـ `Session Token` لإتخاذ قرارات أمنية أو للتحقق من صلاحيات الوصول `Authorization`، فإن الـ `Referer` وظيفته الأساسية هي إحصائية فقط لكي يعلم الموقع ماهي الصفحة التى جاء منها المُستخدم أو للتوجيه فقط، وليس لحماية الوظائف الحساسة.

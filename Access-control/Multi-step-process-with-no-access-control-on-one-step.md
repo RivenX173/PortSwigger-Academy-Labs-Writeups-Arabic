@@ -36,7 +36,7 @@ action=upgrade&confirmed=true&username=carlos
 
 وتوجيهه إلى الـ `repeater` وبعد ذلك نقوم بعمل تسجيل خروج وندخل إلى حساب `wiener:peter` ونقوم بنسخ الـ `Session`الخاصة بـ `wiener` ونضعها بدلًا من الـ `Session` الموجودة (الخاصة بحساب `administrator`) في الـ `request` الموجود مُسبقًا في الـ `repeater` ونغير اسم `carlos` إلى `wiener` في الـ `request` ونقوم بتمريره لنجد أنه تم رفع صلاحيات الحساب إلى مدير لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء كبير من ترقيع لاب` [Unprotected admin functionality](./Unprotected-admin-functionality.md)
+**`بالإضافة إلى جزء كبير من ترقيع لاب`** [Unprotected admin functionality](./Unprotected-admin-functionality.md)
 
 فيجب تطبيق ضوابط الوصول على كل الخطوات، فيجب على السيرفر أن يفحص الصلاحيات في كل خطوة وأن يقرأ الـ `Session` ويتأكد أن صاحبها هو `Administrator` بالفعل وليس مُستخدم عادي.
 

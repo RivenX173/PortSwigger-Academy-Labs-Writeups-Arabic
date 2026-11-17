@@ -115,4 +115,4 @@ def handleResponse(req, interesting):
 ```
 وسبب وجود `">` في البداية هو للهروب لأن الكود يتم طباعته داخل خاصية `Inside an Attribute` وليس `Between Tags`  مثل اللابين السابقين.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
+**`نفس ترقيع لاب`** [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)

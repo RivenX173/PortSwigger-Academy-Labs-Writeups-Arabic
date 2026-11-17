@@ -20,4 +20,4 @@ https://0a93003403e17bab808fc1be00a000a1.web-security-academy.net/my-account?id=
 
 لنجد أننا دخلنا بنجاح إلى حساب `Carlos` ونجد مفتاح الـ `API` ظاهرًا فننسخه ثم نضغط على `Submit solution` ونضع مفتاح الـ `API` ونضغط `OK` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`الترقيع هو جزء كبير من ترقيع لاب` [User ID controlled by request parameter](./User-ID-controlled-by-request-parameter.md)
+**`الترقيع هو جزء كبير من ترقيع لاب`** [User ID controlled by request parameter](./User-ID-controlled-by-request-parameter.md)

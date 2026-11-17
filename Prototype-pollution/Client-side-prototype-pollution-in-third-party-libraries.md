@@ -22,6 +22,6 @@ https://0afe00f30423c15d80241cfb0079002c.web-security-academy.net/#__proto__[hit
 ```
 ثم نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [DOM XSS via client-side prototype pollution](./DOM-XSS-via-client-side-prototype-pollution.md)
+**`نفس ترقيع لاب`** [DOM XSS via client-side prototype pollution](./DOM-XSS-via-client-side-prototype-pollution.md)
 
 ويجب دائمًا فحص وتحديث المكتبات الخارجية.

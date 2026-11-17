@@ -55,6 +55,6 @@ stockApi=http%3a%2f%2f192.168.0.13%3a8080%2fadmin%2fdelete%3fusername%3dcarlos
 ```
 وبمجرد إرسال الطلب سنجد أن حساب `carlos` تم حذفه لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Basic SSRF against the local server](./Basic-SSRF-against-the-local-server.md)
+**`نفس ترقيع لاب`** [Basic SSRF against the local server](./Basic-SSRF-against-the-local-server.md)
 
 ويجب وضع حماية ضد كثرة الطلبات لأن الوضع الحالي للموقع هو `No Rate Limiting`.

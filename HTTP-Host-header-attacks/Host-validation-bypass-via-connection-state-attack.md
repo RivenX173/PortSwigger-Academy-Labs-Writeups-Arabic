@@ -34,7 +34,7 @@ Cookie: session=IN54Z9L4wGUZVFty1nNrddU7UFOZn3dS; _lab=46%7cMCwCFFr4vWUGA%2fVqUb
 
 **`ملاحظة:`** قد تحتاج إلى تغيير ترويسة `Connection`  إلى `keep-alive` إذا لم تكن كذلك.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Host header authentication bypass](./Host-header-authentication-bypass.md)
+**`نفس ترقيع لاب`** [Host header authentication bypass](./Host-header-authentication-bypass.md)
 
 ويجب فحص كل طلب بشكل مستقل، حيث يتم تهيئة السيرفر الوكيل (مثل `Nginx أو HAProxy أو Apache`) ليقوم بفحص ترويسة `Host` وقواعد التوجيه (Routing rules) لكل طلب HTTP على حدة وليس فقط للطلب الأول في الاتصال.
 

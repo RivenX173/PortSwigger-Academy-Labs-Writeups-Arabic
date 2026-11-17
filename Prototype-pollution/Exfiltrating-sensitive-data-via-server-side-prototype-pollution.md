@@ -168,7 +168,7 @@ ueSajoBmRfxu5PS5y3lJiU6Jeq3Bm52O
 
 لذلك سنقوم بنسخ هذه القيمة `ueSajoBmRfxu5PS5y3lJiU6Jeq3Bm52O` ونعود إلى المتصفح ثم نضغط على `Submit solution` ونضعها في الحقل المناسب ونضغط على `OK` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)
+**`نفس ترقيع لاب`** [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)
 
 ويجب على المطورين تمرير كائن خيارات `Options Object` فارغ أو محدد مسبقاً بصرامة عند استدعاء دوال حساسة مثل `child_process.execSync()` لضمان عدم وراثتها لأي خصائص ملوثة من الـ `Prototype`.
 

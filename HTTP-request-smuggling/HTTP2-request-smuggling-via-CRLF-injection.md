@@ -65,4 +65,4 @@ cookie: victim-fingerprint=8XIv57jkVJSzuFu9BaKeD8reNdL9qIu3; secret=U9KaYKoimvXM
 ```
 بعد ذلك سنقوم بنسخ الـ `session=40rUOD5KHGLoW9dbkDO535SMtuLwOzQs` ونتوجه إلى المتصفح ونضغط `F12` ثم  `Application` ونضعه في خانة الـ `Session` داخل الـ `Cookies` ثم نضغط `Enter` لنجد أننا داخل حساب الضحية لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)
+**`نفس ترقيع لاب`** [Response queue poisoning via H2.TE request smuggling](./Response-queue-poisoning-via-H2.TE-request-smuggling.md)

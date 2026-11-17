@@ -8,6 +8,6 @@
 javascript:alert(1)
 ```
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Stored XSS into HTML context with nothing encoded](./Stored-XSS-into-HTML-context-with-nothing-encoded.md)
+**`نفس ترقيع لاب`** [Stored XSS into HTML context with nothing encoded](./Stored-XSS-into-HTML-context-with-nothing-encoded.md)
 
 ويجب رفض أي رابط لا يبدأ صراحةً بـ `http://` أو `https://` في حقول الإدخال عن طريق `Protocol Whitelisting`.

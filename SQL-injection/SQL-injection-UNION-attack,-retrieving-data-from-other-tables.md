@@ -22,4 +22,4 @@ Cookie: session=540mqf6fQNzaPOYvBC8hlkZNekgeFu3b
 ```
 ثم نقوم بإرسال الطلب ونقوم بالضغط على `Mouse right-click` ثم `Copy URL` ونقوم بفتحه في المتصفح وسنجد بيانات جميع المستخدمين ظاهرة فنقوم بعدها بتسجيل الدخول إلى حساب `administrator:g670fktbzyiul7dzhcvr` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](./SQL-injection-vulnerability-in-WHERE-clause-allowing-retrieval-of-hidden-data.md)
+**`نفس ترقيع لاب`** [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](./SQL-injection-vulnerability-in-WHERE-clause-allowing-retrieval-of-hidden-data.md)

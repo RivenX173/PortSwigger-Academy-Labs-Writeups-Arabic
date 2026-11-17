@@ -17,7 +17,7 @@ https://0a6600ce04fd62e280931ca8003200ba.web-security-academy.net/?'accesskey='x
 https://0a6600ce04fd62e280931ca8003200ba.web-security-academy.net/?%27accesskey=%27x%27onclick=%27alert(1)
 ```
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
+**`نفس ترقيع لاب`** [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
 
 ويجب على الترميز أن يكون `Context-Aware`، بما أن الحقن هنا يحدث داخل سمة `href` داخل وسم `link`، فيجب ترميز علامات التنصيص الفردية `'` إلى `&#39;` والمزدوجة `"` إلى `&quot;` وعدم الاكتفاء بترميز الأقواس فقط.
 

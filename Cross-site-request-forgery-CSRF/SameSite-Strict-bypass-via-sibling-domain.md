@@ -95,7 +95,7 @@ document.location ="https://cms-0a6f004e04dbf4ca801e62f8006600e0.web-security-ac
 `No problem carlos, it&apos;s 3wd1qwyb0axzqnnsl43e`، 
 وهذا يعنى أن كلمة المرور هي `3wd1qwyb0axzqnnsl43e`، لذللك سنقوم بتسجيل الدخول لحساب `carlos:3wd1qwyb0axzqnnsl43e` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء كبير من ترقيع لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`بالإضافة إلى جزء كبير من ترقيع لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 فيجب على السيرفر أن يقوم بترميز `HTML Encoding` لأي مدخلات في صفحة `Login` قبل عرضها في هذه الصفحة أو أي صفحة أخرى، أي يجب على السيرفر نفسه تحويل الأقواس `<` و `>` إلى `&lt;` و `&gt;`.
 

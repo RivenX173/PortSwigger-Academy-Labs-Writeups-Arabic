@@ -23,4 +23,4 @@
 
 وبمجرد أن يعرض المتصفح هذا العنصر، يقوم وسم `<animate>` فوراً وبشكل ديناميكي بتعيين الخاصية `href` لعنصر `<a>` لتصبح قيمتها `javascript:alert(1)`. عندما يقوم الضحية بالنقر على النص `Click me`، يُشغل المتصفح كود الجافاسكريبت ويظهر صندوق التنبيه.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)
+**`نفس ترقيع لاب`** [Reflected XSS into HTML context with nothing encoded](./Reflected-XSS-into-HTML-context-with-nothing-encoded.md)

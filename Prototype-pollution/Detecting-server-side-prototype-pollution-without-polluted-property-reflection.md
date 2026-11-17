@@ -107,4 +107,4 @@ Content-Length: 350
 {"error":{"expose":false,"statusCode":500,"status":500,"body":"{\"address_line_1\":\"TEST\",\"address_line_2\":\"One Wiener Way\",\"city\":\"Wienerville\",\"postcode\":\"BU1 1RP\",\"country\":\"UK\"\"sessionId\":\"rSG7KSeWsZYxGjW48SMVE9pz214GX7xe\",\r\n\"__proto__\": {\r\n    \"test1\":\"test2\"\r\n}}","type":"entity.parse.failed","test1":"test2"}}
 ```
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)
+**`نفس ترقيع لاب`** [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)

@@ -46,6 +46,6 @@ stockApi=http%3a%2f%2flocalhost%2523%40stock.weliketoshop.net%2fadmin%2fdelete%3
 ```
 وبمجرد إرسال الطلب سنجد أن حساب `carlos` تم حذفه لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Basic SSRF against the local server](./Basic-SSRF-against-the-local-server.md)
+**`نفس ترقيع لاب`** [Basic SSRF against the local server](./Basic-SSRF-against-the-local-server.md)
 
 ويجب تبسيط رسائل الخطأ لتكون عامة جداً `(Generic Error)` مثل `An error occurred` دون إعطاء أي تفاصيل إضافية عن سبب الرفض أو النقاطات المسموحة.

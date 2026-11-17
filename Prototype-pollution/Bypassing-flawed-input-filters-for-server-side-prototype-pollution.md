@@ -136,4 +136,4 @@ Content-Length: 329
 ```
 وبعد ذلك سنقوم بالتوجه إلى المتصفح وندخل إلى لوحة التحكم ثم نقوم بحذف حساب `Carlos` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)
+**`نفس ترقيع لاب`** [Privilege escalation via server-side prototype pollution](./Privilege-escalation-via-server-side-prototype-pollution.md)

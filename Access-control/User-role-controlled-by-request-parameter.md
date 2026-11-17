@@ -12,4 +12,4 @@ Set-Cookie: session=ZLs9QrwdSxNZDsFuQ00Ft9zvF2UPyYSK;
 ```
 ونقوم بتعديل `Admin=False` إلى `Admin=True` ثم نمرر الـ `response` لنلاحظ وجود زر `Admin panel` وبالضغط عليه نقوم بالدخول إلى لوحة التحكم ونقوم بحذف المُستخدم `carlos` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`الترقيع هو جزء كبير من ترقيع لاب` [Unprotected admin functionality](./Unprotected-admin-functionality.md)
+**`الترقيع هو جزء كبير من ترقيع لاب`** [Unprotected admin functionality](./Unprotected-admin-functionality.md)

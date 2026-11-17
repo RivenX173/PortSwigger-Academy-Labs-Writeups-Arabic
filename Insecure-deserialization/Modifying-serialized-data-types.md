@@ -22,6 +22,6 @@ O:4:"User":2:{s:8:"username";s:13:"administrator";s:12:"access_token";i:0;}
 
 وبعد ذلك نتوجه إلى `Admin panel` ثم نقوم بحذف حساب `carlos` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`نفس ترقيع لاب` [Modifying serialized objects](./Modifying-serialized-objects.md)
+**`نفس ترقيع لاب`** [Modifying serialized objects](./Modifying-serialized-objects.md)
 
 ويجب تحديث إصدار `PHP` إلى إصدار `8` على الأقل لأنه بداية من هذا الإصدار تؤول المقارنة `0 == "Example string"` إلى `"خطأ false"`.

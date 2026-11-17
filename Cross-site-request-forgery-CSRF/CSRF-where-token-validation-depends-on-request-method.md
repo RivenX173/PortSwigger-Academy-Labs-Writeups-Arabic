@@ -42,6 +42,6 @@ Cookie: session=xAos2OqWHCqLijYUr6x626oo1YHPRadW
 
 بعد ذلك نقوم بالضغط على `Store` ثم `Deliver exploit to victim` لننتهي من حل اللاب.
 ## **`ترقيع الثغرة`**
-**`بالإضافة إلى جزء كبير من ترقيع لاب` [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
+**`بالإضافة إلى جزء كبير من ترقيع لاب`** [CSRF vulnerability with no defenses](./CSRF-vulnerability-with-no-defenses.md)
 
 فيجب أن تقتصر طلبات `GET` على جلب وعرض البيانات فقط، وإجبار أى عملية حساسة على استخدام `POST`، `PUT`، أو `DELETE`، وضبط الـ `Endpoint` ليرد بـ بخطأ `405 Method Not Allowed` إذا استقبل `GET`.
