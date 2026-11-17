@@ -74,7 +74,7 @@ All labs are organized into topic-based directories matching the official PortSw
 
 - **Educational Purpose Only:** All techniques, payloads, and exploits documented here are intended strictly for educational purposes and authorized security testing.
 
-* **Remediation Disclaimer:** The remediation sections (`ترقيع الثغرة`) represent personal research and best-effort analysis rather than official PortSwigger solutions; therefore, technical inaccuracies or incomplete edge cases may exist. Additionally, while the steps are written in an imperative tone ("يجب..."), they are not necessarily meant to be implemented all at once—several points represent alternative approaches or defense-in-depth layers, and applying even a subset of them may be sufficient depending on the application's architecture.
+* **Remediation Disclaimer:** The remediation sections (`ترقيع الثغرة`) represent personal research and best-effort analysis rather than official PortSwigger solutions; therefore, technical inaccuracies or incomplete edge cases may exist. Additionally, while the steps are written in an imperative tone ("يجب..."), they are not necessarily meant to be implemented all at once, as several points represent alternative approaches or defense-in-depth layers, and applying even a subset of them may be sufficient depending on the application's architecture.
 
 - **Typographical Note:** These notes were written organically while solving the labs as a personal study reference, so minor spelling or grammatical mistakes in Arabic or English are expected.
 
